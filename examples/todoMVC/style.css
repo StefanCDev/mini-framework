@@ -1,0 +1,36 @@
+/* mini-framework/examples/todoMVC/style.css */
+
+/* Reset default margin and padding */
+html, body, ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Style the todo list container */
+  #app {
+    font-family: Arial, sans-serif;
+    max-width: 400px;
+    margin: 20px auto;
+  }
+  
+  /* Style todo items */
+  .todo-item {
+    list-style: none;
+    margin-bottom: 5px;
+  }
+  
+  /* Style todo item checkbox */
+  .todo-item input[type="checkbox"] {
+    margin-right: 5px;
+  }
+  
+  /* Style completed todo items */
+  .todo-item.completed span {
+    text-decoration: line-through;
+  }
+  
+  /* Style the todo list */
+  .todo-list {
+    padding: 0;
+  }
+  
