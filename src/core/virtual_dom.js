@@ -8,21 +8,23 @@ class Element {
     }
   
     render() {
+      console.log("Rendering... ");
       const element = document.createElement(this.tag);
   
       for (const [attr, value] of Object.entries(this.attrs)) {
         element.setAttribute(attr, value);
       }
   
-      for (const child of this.children) {
-        if (typeof child === 'string') {
-          element.appendChild(document.createTextNode(child));
-        } else {
-          element.appendChild(child.render());
+      if (this.children) {
+        for (const child of this.children) {
+          if (typeof child === Element) {
+            return child.render();
+
+          } else if (typeof child === 'string') {
+            return document.createTextNode(child);
+          }
         }
       }
-  
-      return element;
     }
   }
   

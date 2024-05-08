@@ -1,4 +1,6 @@
-// mini-framework/src/core/data_binding.js
+/* The `DataBinding` class in JavaScript allows for data binding and notification of listeners when
+data is updated. */
+
 
 class DataBinding {
     constructor() {
@@ -8,6 +10,7 @@ class DataBinding {
   
     setData(key, value) {
       this.data[key] = value;
+      console.log(this.data);
       this.notifyListeners(key);
     }
   
