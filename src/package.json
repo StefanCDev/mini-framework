@@ -1,0 +1,12 @@
+{
+    "name": "todo-list-app",
+    "version": "1.0.0",
+    "scripts": {
+        "start": "webpack serve --open",
+        "build": "webpack --config webpack.config.js"
+    },
+    "dependencies": {
+        "node": "^12.22.12",
+        "yarn": "^1.22.22"
+    }
+}

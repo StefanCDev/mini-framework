@@ -1,0 +1,96 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/stefan/.nvm/v0.8.28/bin/node',
+1 verbose cli   '/home/stefan/.nvm/v0.8.28/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'core@latest',
+1 verbose cli   '--force',
+1 verbose cli   '--legacy-peer-deps' ]
+2 info using npm@1.2.30
+3 info using node@v0.8.28
+4 warn using --force I sure hope you know what you are doing.
+5 verbose read json /home/stefan/Stefan/01F.Projects/mini-framework/src/package.json
+6 warn package.json todo-list-app@1.0.0 No repository field.
+7 warn package.json todo-list-app@1.0.0 No readme data.
+8 verbose read json /home/stefan/Stefan/01F.Projects/mini-framework/src/node_modules/hiredis/package.json
+9 verbose read json /home/stefan/Stefan/01F.Projects/mini-framework/src/node_modules/file-uri-to-path/package.json
+10 verbose read json /home/stefan/Stefan/01F.Projects/mini-framework/src/node_modules/underscore/package.json
+11 verbose read json /home/stefan/Stefan/01F.Projects/mini-framework/src/node_modules/require-all/package.json
+12 verbose read json /home/stefan/Stefan/01F.Projects/mini-framework/src/node_modules/xml2js/package.json
+13 verbose read json /home/stefan/Stefan/01F.Projects/mini-framework/src/node_modules/node-bin-setup/package.json
+14 verbose read json /home/stefan/Stefan/01F.Projects/mini-framework/src/node_modules/mysql/package.json
+15 verbose read json /home/stefan/Stefan/01F.Projects/mini-framework/src/node_modules/inherits/package.json
+16 verbose read json /home/stefan/Stefan/01F.Projects/mini-framework/src/node_modules/yarn/package.json
+17 verbose read json /home/stefan/Stefan/01F.Projects/mini-framework/src/node_modules/debug/package.json
+18 verbose read json /home/stefan/Stefan/01F.Projects/mini-framework/src/node_modules/esprima/package.json
+19 verbose read json /home/stefan/Stefan/01F.Projects/mini-framework/src/node_modules/amqp-dl/package.json
+20 verbose read json /home/stefan/Stefan/01F.Projects/mini-framework/src/node_modules/iconv/package.json
+21 verbose read json /home/stefan/Stefan/01F.Projects/mini-framework/src/node_modules/mime/package.json
+22 verbose read json /home/stefan/Stefan/01F.Projects/mini-framework/src/node_modules/js-yaml/package.json
+23 verbose read json /home/stefan/Stefan/01F.Projects/mini-framework/src/node_modules/core/package.json
+24 verbose read json /home/stefan/Stefan/01F.Projects/mini-framework/src/node_modules/isarray/package.json
+25 verbose read json /home/stefan/Stefan/01F.Projects/mini-framework/src/node_modules/readable-stream/package.json
+26 verbose read json /home/stefan/Stefan/01F.Projects/mini-framework/src/node_modules/string_decoder/package.json
+27 verbose read json /home/stefan/Stefan/01F.Projects/mini-framework/src/node_modules/bindings/package.json
+28 verbose read json /home/stefan/Stefan/01F.Projects/mini-framework/src/node_modules/redis/package.json
+29 verbose read json /home/stefan/Stefan/01F.Projects/mini-framework/src/node_modules/sax/package.json
+30 verbose read json /home/stefan/Stefan/01F.Projects/mini-framework/src/node_modules/argparse/package.json
+31 verbose read json /home/stefan/Stefan/01F.Projects/mini-framework/src/node_modules/stacktrace/package.json
+32 verbose read json /home/stefan/Stefan/01F.Projects/mini-framework/src/node_modules/rewire/package.json
+33 verbose read json /home/stefan/Stefan/01F.Projects/mini-framework/src/node_modules/core-util-is/package.json
+34 verbose read json /home/stefan/Stefan/01F.Projects/mini-framework/src/node_modules/knox/package.json
+35 verbose read json /home/stefan/Stefan/01F.Projects/mini-framework/src/node_modules/stream-counter/package.json
+36 verbose read json /home/stefan/Stefan/01F.Projects/mini-framework/src/node_modules/nan/package.json
+37 verbose read json /home/stefan/Stefan/01F.Projects/mini-framework/src/node_modules/node/package.json
+38 verbose read json /home/stefan/Stefan/01F.Projects/mini-framework/src/node_modules/uriparser/package.json
+39 verbose read json /home/stefan/Stefan/01F.Projects/mini-framework/src/node_modules/underscore.string/package.json
+40 verbose read json /home/stefan/Stefan/01F.Projects/mini-framework/src/node_modules/node-uuid/package.json
+41 verbose read json /home/stefan/Stefan/01F.Projects/mini-framework/src/node_modules/lodash/package.json
+42 warn package.json node-bin-setup@1.1.3 No readme data.
+43 warn package.json core@2.0.14 No repository field.
+44 warn package.json core@2.0.14 No readme data.
+45 verbose from cache /home/stefan/Stefan/01F.Projects/mini-framework/src/package.json
+46 verbose readDependencies using package.json deps
+47 verbose cache add [ 'core@latest', null ]
+48 verbose cache add name=undefined spec="core@latest" args=["core@latest",null]
+49 verbose parsed url { pathname: 'core@latest',
+49 verbose parsed url   path: 'core@latest',
+49 verbose parsed url   href: 'core@latest' }
+50 verbose cache add name="core" spec="latest" args=["core","latest"]
+51 verbose parsed url { pathname: 'latest', path: 'latest', href: 'latest' }
+52 verbose addNamed [ 'core', 'latest' ]
+53 verbose addNamed [ null, null ]
+54 silly lockFile 586e6b4c-core-latest core@latest
+55 verbose lock core@latest /home/stefan/.npm/586e6b4c-core-latest.lock
+56 info addNameTag [ 'core', 'latest' ]
+57 verbose url raw core
+58 verbose url resolving [ 'https://registry.npmjs.org/', './core' ]
+59 verbose url resolved https://registry.npmjs.org/core
+60 info trying registry request attempt 1 at 22:14:56
+61 http GET https://registry.npmjs.org/core
+62 info retry will retry, error on last attempt: Error: 129895169414976:error:1407742E:SSL routines:SSL23_GET_SERVER_HELLO:tlsv1 alert protocol version:../deps/openssl/openssl/ssl/s23_clnt.c:658:
+63 info trying registry request attempt 2 at 22:15:06
+64 http GET https://registry.npmjs.org/core
+65 info retry will retry, error on last attempt: Error: 129895169414976:error:1407742E:SSL routines:SSL23_GET_SERVER_HELLO:tlsv1 alert protocol version:../deps/openssl/openssl/ssl/s23_clnt.c:658:
+66 info trying registry request attempt 3 at 22:16:07
+67 http GET https://registry.npmjs.org/core
+68 silly lockFile 586e6b4c-core-latest core@latest
+69 silly lockFile 586e6b4c-core-latest core@latest
+70 error Error: 129895169414976:error:1407742E:SSL routines:SSL23_GET_SERVER_HELLO:tlsv1 alert protocol version:../deps/openssl/openssl/ssl/s23_clnt.c:658:
+70 error
+70 error     at CleartextStream._puller (tls.js:670:24)
+70 error     at CleartextStream.CryptoStream._pull (tls.js:604:19)
+70 error     at SecurePair.cycle (tls.js:894:20)
+70 error     at EncryptedStream.CryptoStream.write (tls.js:285:13)
+70 error     at Socket.ondata (stream.js:38:26)
+70 error     at Socket.EventEmitter.emit (events.js:96:17)
+70 error     at TCP.onread (net.js:397:14)
+71 error If you need help, you may report this log at:
+71 error     <http://github.com/isaacs/npm/issues>
+71 error or email it to:
+71 error     <npm-@googlegroups.com>
+72 error System Linux 6.5.0-41-generic
+73 error command "/home/stefan/.nvm/v0.8.28/bin/node" "/home/stefan/.nvm/v0.8.28/bin/npm" "install" "core@latest" "--force" "--legacy-peer-deps"
+74 error cwd /home/stefan/Stefan/01F.Projects/mini-framework/src
+75 error node -v v0.8.28
+76 error npm -v 1.2.30
+77 verbose exit [ 1, true ]

@@ -1,14 +1,25 @@
 
+// state_management.js
 
-class Templating {
-    static renderTodoList(todos) {
-      let html = '';
-      todos.forEach(todo => {
-        html += `<li>${todo}</li>`;
-      });
-      return `<ul>${html}</ul>`;
-    }
+class StateManagement {
+  constructor() {
+    this.state = {
+      todos: [],
+    };
   }
-  
-  export default Templating;
-  
+
+  getState() {
+    return this.state;
+  }
+
+  setState(newState) {
+    this.state = newState;
+  }
+
+  addTodo(title) {
+    const newTodo = { title, completed: false };
+    const todos = this.getState().todos;
+    todos.push(newTodo);
+    this.setState({ todos });
+  }
+}
